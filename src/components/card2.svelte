@@ -63,8 +63,12 @@
   <style>
     @media (max-width: 768px) {
       .img {
-        height: 220px;
+        height: 260px;
       }
+      .carta {
+      min-height: 280px;
+      max-height: 280px;
+    }
     }
   
     .col-xxl-pitre {
