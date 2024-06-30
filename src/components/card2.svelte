@@ -21,31 +21,38 @@
   
   
   
-  <div class="row pt-4">
+  <h3 class="text-white mt-5">Lo más popular</h3>
+  <div class="row">
     {#each listHentai as anime, index}
-      {#if index > 0 && index % 4 === 0}
+      {#if index > 0 && index % 6 === 0}
         <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 col-xxl-2 p-2">
-          <div class="card boton border position-relative" style="background-color: #FFD700;">
-            <div class="card-body text-center">
-              <h4 class="text-dark">Anuncio</h4>
-              <p class="text-dark">Este es un anuncio.</p>
+          <div class="carta boton position-relative">
+            <div class="card-header p-0 position-relative z-index-2" style="border-radius: 0.75rem 0.75rem 0px 0px">
+                <div class="d-block blur-shadow-image p-2 cursor-pointer">
+                  <img src="{anime.url_imagen}" width="100%" height="220" alt="img-producto" class="shadow mt-3 img">
+                </div>
+                <div class="colored-shadow" style="background-image: url('{anime.url_imagen}');"></div>
+              </div>
+            <div class="card-body text-center px-2">
+              <h3 class="text-warning">Anuncio</h3>
+              <p class="text-white">¿Por qué veo este anuncio?</p>
             </div>
           </div>
         </div>
       {/if}
       <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 col-xxl-2 p-2">
-        <div class="card boton border position-relative" style="background-color: #1E1E1E;">
+        <div class="carta boton position-relative">
           <div class="card-header p-0 position-relative z-index-2" style="border-radius: 0.75rem 0.75rem 0px 0px">
-            <div class="d-block blur-shadow-image cursor-pointer">
-              <img src="{anime.url_imagen}" width="100%" height="220vh" alt="img-producto" class="shadow img" style="border-radius: 0.75rem 0.75rem 0px 0px">
+            <div class="d-block blur-shadow-image p-2 cursor-pointer">
+              <img src="{anime.url_imagen}" width="100%" height="280vh" alt="img-producto" class="shadow img">
             </div>
             <div class="colored-shadow" style="background-image: url('{anime.url_imagen}');"></div>
           </div>
-          <div class="card-body py-0">
-            <p class="text-white text-center font-weight-bold mt-1 mb-0">{recortarTexto(anime.nombre_anime)}</p>
-          </div>
-          <div class="mb-n2 mx-2 position-relative">
-            <div class="btn col-12 btn-sm btn-danger position-absolute" style="bottom: 0;">Ver ahora</div>
+          <div class="card-body px-2">
+            <p class="text-white mt-1 mb-0">{recortarTexto(anime.nombre_anime)}</p>
+
+            <p class="text-gray mb-0">Sub | Dob</p>
+            
           </div>
         </div>
       </div>
@@ -60,17 +67,24 @@
       }
     }
   
+    .col-xxl-pitre {
+      flex: 0 0 auto;
+      width: 20%;
+    }
     .img {
-      filter: blur(3px);
+      filter: blur(0px);
     }
   
     .img:hover {
       filter: blur(0px);
     }
   
-    .card {
-      min-height: 350px;
-      max-height: 350px;
+    .carta {
+      min-height: 380px;
+      max-height: 380px;
+      display: flex;
+      flex-direction: column;
+      --hover-shadow-size: 0.5rem;
     }
   
     .boton {
@@ -79,10 +93,7 @@
     }
   
     .boton:hover {
-      -webkit-box-shadow: 0px 0px 19px 1px rgba(255, 0, 0, 1);
-      box-shadow: 0px 0px 19px 1px rgba(255, 0, 0, 1);
-      transform: scale(1.05) translateX(1px);
-      transform: scale(1.05) translateY(1px);
+     background-color: rgba(71, 71, 71, 0.329);
     }
   
   </style>

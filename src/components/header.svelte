@@ -1,12 +1,13 @@
-<header class="bg-gradient-danger">
-    <div class="page-header min-vh-45" style="background-image: url(&quot;./bg.jpeg&quot;); background-position-y: 50%; background-size: cover; background-position-x: 70%;">
-      <span class="mask bg-gradient-dark opacity-8"></span>
+<header class="bg-gradient-dark">
+    <div class="page-header min-vh-75" style="background-image: url(&quot;./bg.jpeg&quot;); background-position-y: 50%; background-size: cover; background-position-x: 70%;">
+      <span class="mask bg-gradient-dark opacity-9"></span>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
 
             
-              <h1 class=" text-white mb-5 text-hentai mx-auto" style="font-size: 100px;">TuHentai</h1>
+              <h1 class=" text-white text-hentai mx-auto" style="font-size: 130px;">TuHentai</h1>
+              <p class="text-white">Disfruta de los mejores hentai totalmente gratis</p>
             
 
 
@@ -25,7 +26,7 @@
             <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)"></use>
             <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)"></use>
             <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)"></use>
-            <use xlink:href="#gentle-wave" x="48" y="16" fill="#141414"></use>
+            <use xlink:href="#gentle-wave" x="48" y="16" fill="#000"></use>
           </g>
         </svg>
       </div>
