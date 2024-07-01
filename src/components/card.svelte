@@ -77,7 +77,7 @@
         <div class="col-11 my-5 mx-auto " style="background-color: #000;">
           <div class="row py-4">
             <div class="col-xl-5 col-md-8 text-md-end text-center px-5 position-relative">
-              <img class="img border-radius-md max-width-300 w-md-60 position-relative z-index-2 mt-n6 mb-n6" src="{anime.url_imagen}" style="border: 5px solid #000;">
+              <img class="img border-radius-md max-width-300 w-md-60 position-relative z-index-2 mt-n6 mb-xl-n6" src="{anime.url_imagen}" style="border: 5px solid #000;">
             </div>
       
             <div class="col-xl-6 col-12 px-xl-0 px-5 my-xl-auto">
