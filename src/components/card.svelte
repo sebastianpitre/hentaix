@@ -80,7 +80,7 @@
               <img class="img border-radius-md max-width-300 w-md-60 position-relative z-index-2 mt-n6 mb-xl-n6" src="{anime.url_imagen}" style="border: 5px solid #000;">
             </div>
       
-            <div class="col-xl-6 col-12 px-xl-0 px-5 my-xl-auto">
+            <div class="col-xl-6 col-12 px-xl-0 px-5 mt-4 my-xl-auto">
               <h3 class="text-white mt-xl-0 mt-5">{anime.nombre_anime}</h3>
               <p class="text-white text-sm mb-0"><span class="text-warning font-weight-bold">Hentai</span> • Sub | Dob</p>
               <p class="text-sm text-white opacity-8">Developers and Companies around the world using our products. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam odio, quidem laboriosam eaque ab quaerat, sunt distinctio minus nostrum eveniet omnis, provident quos. Earum minus aut quod. Sequi, voluptas?</p>
