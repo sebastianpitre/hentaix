@@ -13,13 +13,13 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
-          <div class="page-header min-vh-50" style="background-image: url(&quot;./bg.jpeg&quot;); background-position-y: 50%; background-size: cover; background-position-x: 50%;">
+          <div class="page-header min-vh-80" style="background-image: url(&quot;./bg.jpeg&quot;); background-position-y: 50%; background-size: cover; background-position-x: 50%;">
             <span class="mask opacity-8" style="background-color: #000;"></span>
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-lg-8 text-center mx-auto">
+                <div class="col-lg-8  ">
       
-                  <div class="card-body text-center px-2">
+                  <div class="card-body mx-3 px-2">
                     <h1 class="text-warning">TuHentaix</h1>
                     <p class="text-white">Disfruta de todo nuestro contenido <br> gratis aqui en TuHentaix!</p>
                   </div>
@@ -33,7 +33,7 @@
 
         {#each listHentai as anime}
         <div class="carousel-item" data-bs-interval="2000">
-          <div class="page-header min-vh-50" style="background-image: url(&quot;{anime.url_imagen}&quot;); background-position-y: 0%; background-size: cover; background-position-x: 50%;">
+          <div class="page-header min-vh-80" style="background-image: url(&quot;{anime.url_imagen}&quot;); background-position-y: 0%; background-size: cover; background-position-x: 50%;">
             <span class="mask opacity-8" style="background-color: #000;"></span>
             <div class="container">
               <div class="row justify-content-center">

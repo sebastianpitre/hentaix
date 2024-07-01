@@ -6,7 +6,7 @@
           <div class="col-lg-8 text-center mx-auto my-auto">
 
             
-              <h1 class=" text-white text-hentai mx-auto" style="font-size: 110px;">TuHentaix</h1>
+              <h1 class=" text-white text-hentai mx-auto" style="font-size: 90px;">TuHentaix</h1>
               <p class="text-white">Disfruta de los mejores hentai totalmente gratis</p>
             
 
