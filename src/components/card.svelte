@@ -23,7 +23,7 @@
   
   
   <div class="row">
-    <h3 class="text-white" style="z-index: 10;">Lo más popular</h3>
+    <h3 class="text-white" style="z-index: 10;">Lo más popular xx</h3>
     {#each listHentai as anime, index}
       {#if index > 0 && index % 7 === 0}
         <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 col-xxl-2 px-0 my-1">
