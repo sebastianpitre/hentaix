@@ -23,14 +23,14 @@
   
   
   <div class="row">
-    <h3 class="text-white" style="z-index: 10;">Lo más popular xx</h3>
+    <h3 class="text-white" style="z-index: 10;">Lo más popular</h3>
     {#each listHentai as anime, index}
       {#if index > 0 && index % 7 === 0}
         <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 col-xxl-2 px-0 my-1">
           <div class="carta boton position-relative" style="background-color: #333;">
             <div class="card-header p-0 position-relative z-index-2" style="border-radius: 0.75rem 0.75rem 0px 0px">
                 <div class="d-block blur-shadow-image p-2 cursor-pointer">
-                  <script type='text/javascript' src='//pl23668302.highrevenuenetwork.com/08/8e/52/088e52164e2b475c77773ff04e84d849.js'></script>
+                  <img src="{anime.url_imagen}" width="100%" height="220" alt="img-producto" class="shadow mt-3 img">
                 </div>
                 <div class="colored-shadow" style="background-image: url('{anime.url_imagen}');"></div>
               </div>
