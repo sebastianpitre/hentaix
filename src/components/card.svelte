@@ -30,7 +30,7 @@
           <div class="carta boton position-relative" style="background-color: #333;">
             <div class="card-header p-0 position-relative z-index-2" style="border-radius: 0.75rem 0.75rem 0px 0px">
                 <div class="d-block blur-shadow-image p-2 cursor-pointer">
-                  <img src="{anime.url_imagen}" width="100%" height="220" alt="img-producto" class="shadow mt-3 img">
+                  <script type='text/javascript' src='//pl23668302.highrevenuenetwork.com/08/8e/52/088e52164e2b475c77773ff04e84d849.js'></script>
                 </div>
                 <div class="colored-shadow" style="background-image: url('{anime.url_imagen}');"></div>
               </div>
